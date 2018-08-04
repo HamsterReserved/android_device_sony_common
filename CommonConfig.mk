@@ -17,9 +17,6 @@
 # Common path
 COMMON_PATH := device/sony/common
 
-# Do not build proprietary capability
-TARGET_USES_AOSP := true
-
 TARGET_BOARD_AUTO := true
 
 TARGET_NO_RADIOIMAGE := true
