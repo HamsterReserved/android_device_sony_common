@@ -201,6 +201,9 @@ on boot
     chown system system /sys/devices/virtual/input/clearpad/glove
     chmod 0660 /sys/devices/virtual/input/clearpad/glove
 
+    # Activate touchpanel
+    write /sys/class/input/input7/post_probe_start 1
+
     # Allow access for CCID command/response timeout configuration
     chown system system /sys/module/ccid_bridge/parameters/bulk_msg_timeout
 
