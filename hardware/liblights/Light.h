@@ -34,7 +34,6 @@
 #include <fcntl.h>
 #include <pthread.h>
 
-#include <linux/msm_mdp.h>
 
 #include <sys/ioctl.h>
 #include <sys/types.h>
