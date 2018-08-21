@@ -105,7 +105,7 @@ BUILD_KERNEL := true
 -include vendor/qcom/proprietary/common/build/proprietary-build.mk
 
 # SELinux
-include device/sony/sepolicy/sepolicy.mk
+#include device/sony/sepolicy/sepolicy.mk
 
 DEVICE_MANIFEST_FILE := $(COMMON_PATH)/manifest.xml
 DEVICE_MATRIX_FILE   := $(COMMON_PATH)/compatibility_matrix.xml
