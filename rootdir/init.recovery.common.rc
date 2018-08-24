@@ -1,6 +1,7 @@
 on init
     wait /dev/block/platform/soc/${ro.boot.bootdevice}
     symlink /dev/block/platform/soc/${ro.boot.bootdevice} /dev/block/bootdevice
+    write /sys/class/input/input7/post_probe_start 1
 
     # USB setup
     mkdir /config 0770 shell shell
