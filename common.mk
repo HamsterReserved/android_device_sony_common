@@ -29,7 +29,7 @@ PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/oss/release-keys/testkey
 # Common path
 COMMON_PATH := device/sony/common
 
-DEVICE_PACKAGE_OVERLAYS += $(COMMON_PATH)/overlay
+DEVICE_PACKAGE_OVERLAYS += $(COMMON_PATH)/overlay $(COMMON_PATH)/overlay-mokee
 
 PRODUCT_ENFORCE_RRO_TARGETS := \
     framework-res
